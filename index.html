@@ -1,0 +1,121 @@
+<!-- 
+    Układ 16:9
+    Ma być podobny (nie pixel w pixel)
+    Ma być responsywny (dostosowoywać się do wysokości przeglądarki)
+
+    ZŁOTE ZASADY
+    - Zrób tak jak potrafisz i tyle ile potrafisz
+    - Próbuj/testuj/sprawdzaj co by było. Takie próbowanie to najważniejsze cechy programisty
+    - Nie przeskakuj ćwiczenia. 
+ -->
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A dream about old Japan</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .picture {
+            position: absolute;
+            top: calc(50% - 90vh/2);
+            left: calc(50% - 160vh/2);
+            /* margin: 2% auto 0; */
+            width: 160vh;
+            height: 90vh;
+            overflow: hidden;
+            background-color: powderblue;
+        }
+
+        img {
+            width: 100%;
+            position: absolute;
+        }
+
+        div img:nth-child(1) {
+            top: 14%;
+            left: 0;
+        }
+
+        div img:nth-child(2) {
+            top: 27%;
+            left: 0;
+        }
+
+        div img:nth-child(3) {
+            top: 37%;
+            left: 0;
+        }
+
+        div img:nth-child(4) {
+            top: 34%;
+            left: 0;
+        }
+
+        div img:nth-child(5) {
+            top: 44%;
+            left: 0;
+        }
+
+        div img:nth-child(6) {
+            top: 68%;
+            left: 0;
+        }
+
+        div img:nth-child(7) {
+            width: 10%;
+            top: 5%;
+            left: 7%;
+        }
+
+        div img:nth-child(8) {
+            width: 40%;
+            top: 12%;
+            left: -9%;
+        }
+
+        div img:nth-child(9) {
+            width: 45%;
+            top: 5%;
+            right: 5%;
+        }
+
+        div img:nth-child(10) {
+            width: 35%;
+            top: 21%;
+            right: 0;
+        }
+
+        div img:nth-child(11) {
+            width: 6%;
+            bottom: 15%;
+            left: 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="picture">
+        <!-- img[src=img/japan$.png]*11 -->
+        <img src="img/japan1.png" alt="">
+        <img src="img/japan2.png" alt="">
+        <img src="img/japan3.png" alt="">
+        <img src="img/japan4.png" alt="">
+        <img src="img/japan5.png" alt="">
+        <img src="img/japan6.png" alt="">
+        <img src="img/japan7.png" alt="">
+        <img src="img/japan8.png" alt="">
+        <img src="img/japan9.png" alt="">
+        <img src="img/japan10.png" alt="">
+        <img src="img/japan11.png" alt="">
+
+    </div>
+</body>
+
+</html>
